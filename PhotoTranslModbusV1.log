@@ -1,0 +1,15 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F030F4 -BIN -LHF -DL -SSA -O11111114 -fo48 -N"C:\ARM32 Proj\Измеритель освещенности с RS485 и USB\PhotoTranslModbusV1.mcpar" -SP"C:\Program Files (x86)\mikroC PRO for ARM\Defs\" -SP"C:\Program Files (x86)\mikroC PRO for ARM\Uses\ST M0\" -SP"C:\ARM32 Proj\Измеритель освещенности с RS485 и USB\" -IP"C:\Program Files (x86)\mikroC PRO for ARM\Uses\ST M0\" -IP"C:\ARM32 Proj\Измеритель освещенности с RS485 и USB\" "PhotoTransdModbusV2.c" "CRC_Table.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_GPIO_32F030x46_Defs.emcl" "__Lib_GPIO_32F0xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_CStdlib.emcl" "__Lib_CMath.emcl" "__Lib_MemManager.emcl" "__Lib_Conversions.emcl" "__Lib_Sprintf.emcl" "__Lib_PrintOut.emcl" "__Lib_Sprinti.emcl" "__Lib_Sprintl.emcl" "__Lib_Time.emcl" "__Lib_Trigonometry.emcl" "__Lib_Button.emcl" "__Lib_Keypad4x4.emcl" "__Lib_Manchester.emcl" "__Lib_OneWire.emcl" "__Lib_PS2.emcl" "__Lib_Sound.emcl" "__Lib_SoftI2C.emcl" "__Lib_SoftSPI.emcl" "__Lib_SoftUART.emcl" "__Lib_ADC_32F0x_9ch.emcl" "__Lib_FLASH_32F0x_16.emcl" "__Lib_I2C_1.emcl" "__Lib_PWM_1_3_14_16_17.emcl" "__Lib_SPI_1.emcl" "__Lib_UART_1.emcl" "__Lib_PortExpander.emcl" "__Lib_CANSPI.emcl" "__Lib_CF.emcl" "__Lib_CFFat16.emcl" "__Lib_GlcdFonts.emcl" "__Lib_Glcd.emcl" "__Lib_LcdConsts.emcl" "__Lib_Lcd.emcl" "__Lib_Mmc.emcl" "__Lib_MmcFat16.emcl" "__Lib_MmcFat16Constants.emcl" "__Lib_RS485.emcl" "__Lib_S1D13700.emcl" "__Lib_T6963C.emcl" "__Lib_SPIGlcd.emcl" "__Lib_SPILcd.emcl" "__Lib_SPILcd8.emcl" "__Lib_SPIT6963C.emcl" "__Lib_EthEnc28j60.emcl" "__Lib_EthEnc24j600.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_TouchPanel_TFT.emcl" "__Lib_TouchPanel.emcl" "__Lib_STMPE610.emcl" "__Lib_TSC2006.emcl"	 
+diagnostics: 0	122	Compilation Started	crc_table.c
+hint: 0	1004	interrupt handler (ReceiveOne at 0x002B)	PhotoTransdModbusV2.c
+diagnostics: 683	123	Compiled Successfully	PhotoTransdModbusV2.c
+hint: 250	1164	Variable 'CRC_rd' has been eliminated by optimizer	PhotoTransdModbusV2.c
+diagnostics: 0	122	Compilation Started	CRC_Table.c
+diagnostics: 59	123	Compiled Successfully	CRC_Table.c
+diagnostics: 0	127	All files Compiled in 188 ms	 
+hint: 0	1144	Used RX: 11 (69%)   Free RX: 5 (31%)	Used RX: 11 (69%)   Free RX: 5 (31%)
+hint: 0	1144	Static RAM (bytes): 703   Dynamic RAM (bytes): 3389	Static RAM (bytes): 703   Dynamic RAM (bytes): 3389
+hint: 0	1144	Used ROM (bytes): 8707 (53%)  Free ROM (bytes): 7677 (47%)	Used ROM (bytes): 8707 (53%)  Free ROM (bytes): 7677 (47%)
+diagnostics: 0	125	Project Linked Successfully	PhotoTranslModbusV1.mcpar
+diagnostics: 0	128	Linked in 734 ms	 
+diagnostics: 0	129	Project 'PhotoTranslModbusV1.mcpar' completed: 1094 ms	 
+diagnostics: 0	103	Finished successfully: 26 окт 2018, 18:35:47	PhotoTranslModbusV1.mcpar
